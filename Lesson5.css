@@ -1,0 +1,97 @@
+/* Lesson5 */
+.Lesson5 {
+    width: 1260px;
+    border: 1px solid black;
+    font-weight: bold;
+    margin-bottom: 50px;
+}
+
+.container1{
+    display: flex;
+    
+}
+.a1{
+    display: flex;
+    border: 1px solid black;
+    align-items: center;
+}
+.a2{
+    border: 1px solid black;
+    margin-right: 20px;
+    margin-left: 20px;
+    display: grid;                         
+    place-items: center; 
+}
+.a3{
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    border: 1px solid black;
+    margin-right: 20px;
+}
+.a4{
+    border: 1px solid black;
+    text-align: center;
+}
+.a1, .a2, .a3, .a4{
+    width: 300px;
+    height: 300px;
+    background-color: aquamarine;
+    margin-bottom: 30px;
+}
+
+.container2 {
+    display: flex;
+}
+.b1 {
+    border: 1px solid black;
+}
+.b2 {
+    display: flex;
+    border: 1px solid black;
+    margin-right: 20px;
+    margin-left: 20px;
+    width: 620px;
+    height: 300px;
+    background-color: aquamarine;
+    margin-bottom: 30px;
+    align-items: center;
+    justify-content: center;
+}
+.b3 {
+    border: 1px solid black;
+}
+.b1, .b3 {
+    width: 300px;
+    background-color: aquamarine;
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container3 {
+    display: flex;
+}
+.c1 {
+    border: 1px solid black;
+    width: 300px;
+    height: 150px;
+}
+.c2 {
+    border: 1px solid black;
+    width: 300px;
+    height: 300px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+.c3 {
+    border: 1px solid black;
+    flex: 1;
+}
+.c1, .c2, .c3 {
+    background-color: aquamarine;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
